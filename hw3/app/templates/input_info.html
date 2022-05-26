@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+   <body>
+   
+      <form action = "/result" method = "POST">
+         <p>Name<input type = "text" name = "Name" /></p>
+         <p>Student Number<input type = "text" name = "StudentNumber" /></p>
+      
+         <p>Gender</p>
+         <label><input type="radio" name="Gender" value="Male"> Male</label> <!--gender 라디오버튼 생성-->
+         <label><input type="radio" name="Gender" value="Female"> Female</label>
+
+         <p>Major<input type = "text" name = "Major" ></p>
+
+         <p>Programming Languages</p>
+         <label><input type="checkbox" name="PL1" value="Python"> Python</label> <!--프로그래밍 언어 체크박스 생성-->
+         <label><input type="checkbox" name="PL2" value="Java"> Java</label> <!--name 을 다르게 설정해서 하나씩 받아옴.-->
+         <label><input type="checkbox" name="PL3" value="HTML"> HTML</label>
+         <label><input type="checkbox" name="PL4" value="C++"> C++</label>
+
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+      
+   </body>
+</html>
